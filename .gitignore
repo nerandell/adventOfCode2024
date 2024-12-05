@@ -1,0 +1,44 @@
+# Compiled binary
+/debug/
+/release/
+
+# Rust build artifacts
+*.d
+*.o
+*.rlib
+*.lock
+
+# Target directory
+/target/
+
+# Dependencies
+Cargo.lock
+
+# IDE-related files
+.idea/
+/*.iml
+
+# Logs
+*.log
+
+# Rust package manager caches
+.cargo/
+
+# Other JetBrains IDE files
+/.idea/
+/*.iml
+/out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# RustRover specific (JetBrains Rust IDE)
+/.idea/
+/.rustup/
+/.vscode/
