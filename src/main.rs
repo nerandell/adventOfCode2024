@@ -11,6 +11,7 @@ fn main() {
         "3" => days::day03::run(&read_file("input/day03.txt").unwrap()),
         "4" => days::day04::run(&read_file("input/day04.txt").unwrap()),
         "5" => days::day05::run(&read_file("input/day05.txt").unwrap()),
+        "6" => days::day06::run(&read_file("input/day06.txt").unwrap()),
         _ => eprintln!("Unknown day: {}", day),
     }
 }
